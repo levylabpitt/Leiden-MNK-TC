@@ -11,6 +11,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="build support" Type="Folder">
+			<Item Name="Leiden Tools.vipb" Type="Document" URL="../../build support/Leiden Tools.vipb"/>
+		</Item>
 		<Item Name="FP_to_DSC_subVIs" Type="Folder">
 			<Item Name="CF_FP_to_DSC.vi" Type="VI" URL="../FP_to_DSC_subVIs/CF_FP_to_DSC.vi"/>
 			<Item Name="MNK_FP_to_DSC.vi" Type="VI" URL="../FP_to_DSC_subVIs/MNK_FP_to_DSC.vi"/>
@@ -28,9 +31,6 @@
 			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../subVIs/NetVarWrite_dbl.vi"/>
 			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../subVIs/NetVarWrite_str.vi"/>
 			<Item Name="ParseLeidenComputerNames.vi" Type="VI" URL="../subVIs/ParseLeidenComputerNames.vi"/>
-		</Item>
-		<Item Name="build support" Type="Folder">
-			<Item Name="Leiden Tools.vipb" Type="Document" URL="../../build support/Leiden Tools.vipb"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="AVSType-enum.ctl" Type="VI" URL="../Typedefs/AVSType-enum.ctl"/>

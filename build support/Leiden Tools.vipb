@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-12-22 13:01:06" Modified_Date="2018-07-25 13:26:41" Creator="patrick irvin" Comments="" ID="916158aed8c9a250f00de9abaa79b0b3">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-12-22 13:01:06" Modified_Date="2018-07-26 13:14:31" Creator="patrick irvin" Comments="" ID="e17f7db80ac3b147f80493e1b1a11152">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_Tools</Package_File_Name>
-    <Library_Version>1.1.0.9</Library_Version>
+    <Library_Version>1.1.1.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -35,7 +35,8 @@
       <Release_Notes>- simplify function palette
 - simplify inputs with typedef clusters
 - add error handling
-- updated</Release_Notes>
+- updated palette icon
+--bugfix: error in/out in TC_to_DSC.vi</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -227,7 +228,7 @@
         <Path>..\src\TC_to_DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9C17E11023AEBF26F50815DE4442A454</GUID>
+      <GUID>DA510E9F49FD65CED5E4F25E5B012133</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
