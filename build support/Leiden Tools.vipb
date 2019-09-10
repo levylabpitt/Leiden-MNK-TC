@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-12-22 13:01:06" Modified_Date="2019-07-25 07:05:15" Creator="patrick irvin" Comments="" ID="ba44debb2223e65ef5485382c169e0d7">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-12-22 13:01:06" Modified_Date="2019-09-10 10:32:48" Creator="patrick irvin" Comments="" ID="a944ef7608019770e985b481b900106d">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_Tools</Package_File_Name>
     <Library_Version>1.2.0.13</Library_Version>
@@ -39,7 +39,7 @@
 - Add TC_to_DSC.vi to the TC.vi source code to write data to the DSC. Works for CF or MNK.
 
 [Instrument.MNK_TC.lvclass]
-- API that overrides "Get Temoerature.vi" method of Instrument.Cryostat.lvclass
+- API that overrides "Get Temperature.vi" method of Instrument.Cryostat.lvclass
 
 [Instrument.MNK_FP.lclass]
 [Instrument.CF_TC.lvclass]
@@ -216,20 +216,6 @@
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Get Temperature.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>..\src\Instrument.MNK_TC\Get Temperature.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>FP_to_DSC.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -255,7 +241,21 @@
         <Path>..\src\TC to DSC\TC_to_DSC.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0B017E0650D56FE8458095EB36F23B73</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Get Temperature.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>1</Row>
+          <Column>1</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>..\src\Instrument.MNK_TC\API\Get Temperature.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>A3309742F7F9C00D07453B5683F8D711</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
