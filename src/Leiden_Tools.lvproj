@@ -14,6 +14,13 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="Leiden Tools.vipb" Type="Document" URL="../../build support/Leiden Tools.vipb"/>
 		</Item>
+		<Item Name="subVIs" Type="Folder">
+			<Item Name="Computer Info.vi" Type="VI" URL="../subVIs/Computer Info.vi"/>
+			<Item Name="GetLocalComputerName.vi" Type="VI" URL="../subVIs/GetLocalComputerName.vi"/>
+			<Item Name="NetVarWrite_dbl.vi" Type="VI" URL="../subVIs/NetVarWrite_dbl.vi"/>
+			<Item Name="NetVarWrite_str.vi" Type="VI" URL="../subVIs/NetVarWrite_str.vi"/>
+			<Item Name="ParseLeidenComputerNames.vi" Type="VI" URL="../subVIs/ParseLeidenComputerNames.vi"/>
+		</Item>
 		<Item Name="TC to DSC" Type="Folder">
 			<Item Name="subVIs" Type="Folder">
 				<Item Name="CF_TC_to_DSC.vi" Type="VI" URL="../TC to DSC/subVIs/CF_TC_to_DSC.vi"/>
@@ -154,17 +161,17 @@
 				<Item Name="Validate Semaphore Size.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Validate Semaphore Size.vi"/>
 				<Item Name="Release Semaphore_71.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore_71.vi"/>
 				<Item Name="Release Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Release Semaphore.vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser (path).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (path).vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
-				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
-				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Instrument.Cryostat.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Levylab Instruments/Instrument Types/Cryostat/Instrument.Cryostat.lvclass"/>
@@ -359,12 +366,9 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GetLocalComputerName.vi" Type="VI" URL="../subVIs/GetLocalComputerName.vi"/>
-			<Item Name="Computer Info.vi" Type="VI" URL="../subVIs/Computer Info.vi"/>
 			<Item Name="System.Management" Type="Document" URL="System.Management">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ParseLeidenComputerNames.vi" Type="VI" URL="../subVIs/ParseLeidenComputerNames.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
