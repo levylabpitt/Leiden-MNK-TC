@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-12-22 13:01:06" Modified_Date="2019-09-10 10:37:43" Creator="patrick irvin" Comments="" ID="927b9c1256c937e47d4f59194ef3d78a">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-12-22 13:01:06" Modified_Date="2019-09-11 15:33:33" Creator="patrick irvin" Comments="" ID="b68186e8d42d1dbffde8c2be2b02c6f8">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_Tools</Package_File_Name>
-    <Library_Version>1.2.0.14</Library_Version>
+    <Library_Version>1.2.1.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -48,8 +48,8 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>[1.2.0.13]
-- reorganize files</Release_Notes>
+      <Release_Notes>[1.2.1.14]
+- configure to work wtih KHOLEK (new MNK computer)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -255,7 +255,7 @@
         <Path>..\src\Instrument.MNK_TC\API\Get Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>26C1B0BC263B00206D8A4C5FA88C7239</GUID>
+      <GUID>3BD0C7C8482E27324263F6F152A9EFEA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
