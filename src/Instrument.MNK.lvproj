@@ -14,9 +14,7 @@
 		<Item Name="build support" Type="Folder">
 			<Item Name="Leiden Tools.vipb" Type="Document" URL="../../build support/Leiden Tools.vipb"/>
 		</Item>
-		<Item Name="Instrument.MNK_TC" Type="Folder">
-			<Item Name="Instrument.MNK_TC.lvclass" Type="LVClass" URL="../Instrument.MNK_TC/Instrument.MNK_TC.lvclass"/>
-		</Item>
+		<Item Name="Instrument.MNK_TC.lvclass" Type="LVClass" URL="../Instrument.MNK_TC/Instrument.MNK_TC.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
