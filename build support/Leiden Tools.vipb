@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-12-22 13:01:06" Modified_Date="2020-12-06 09:25:18" Creator="patrick irvin" Comments="" ID="e0acdee87a74bb56be187c24937a042a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-12-22 13:01:06" Modified_Date="2020-12-08 20:33:46" Creator="patrick irvin" Comments="" ID="f73ea2137e0567a5207f7a2d0a770303">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_MNK</Package_File_Name>
-    <Library_Version>1.4.0.20</Library_Version>
+    <Library_Version>1.4.0.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -216,7 +216,7 @@
         <Path>..\src\Instrument.MNK_TC\API\Get Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6AFFB92C86666AFACE488B5E737A9EAA</GUID>
+      <GUID>6D294DA8EE51B8E3FEAA070E00B283B4</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
