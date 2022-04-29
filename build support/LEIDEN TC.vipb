@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2022-02-02 17:35:02" Creator="Patrick Irvin" Comments="" ID="e2bf934e8a4cb9c5fda10cd40cd53555">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2022-04-22 08:29:03" Creator="Patrick Irvin" Comments="" ID="410ad37f752aeef9c1a044c01767babe">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_TC</Package_File_Name>
-    <Library_Version>1.0.4.2</Library_Version>
+    <Library_Version>1.0.5.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -38,7 +38,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Update to Instrument Framework v1.11.2.1</Release_Notes>
+      <Release_Notes>- Update to Instrument Framework v1.11.3.2</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -230,7 +230,7 @@
         <Path>..\src\Instrument.TC.MNK\API\Get Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EBC6A3C36DF23C1B4733E9A484D98BAA</GUID>
+      <GUID>67285A1ACA4B1D888E24F7D8D86E64A5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
