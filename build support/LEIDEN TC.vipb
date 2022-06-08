@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2022-05-24 08:54:37" Creator="Patrick Irvin" Comments="" ID="64cfbe212a1c40844b50f498ca8bf1a8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2021-10-19 10:36:22" Modified_Date="2022-06-07 20:24:09" Creator="Patrick Irvin" Comments="" ID="142a95738ac7f0e0fcc56e83d24476c8">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_Leiden_TC</Package_File_Name>
-    <Library_Version>1.0.7.3</Library_Version>
+    <Library_Version>1.0.7.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.0.4</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.12.1.1</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -38,7 +38,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- update to Instrument Framework v1.12</Release_Notes>
+      <Release_Notes>- update to Instrument Framework v1.12.1</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -230,7 +230,7 @@
         <Path>..\src\Instrument.TC.MNK\API\Get Temperature.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D83B49952B18BB9CE55337258464A95A</GUID>
+      <GUID>4AEEFC6F1A4D72EC5707851D6F80846B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
